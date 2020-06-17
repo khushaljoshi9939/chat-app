@@ -1,0 +1,73 @@
+.logo{
+    display:block;
+    margin:auto;
+    height:50px;
+    width:auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+body{
+    background-image: linear-gradient(lightblue,rgb(10, 136, 158),rgba(196, 78, 98, 0.808),rgb(132, 0, 255));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    max-width: 955px;
+    background:url("../aet.jpg");
+    margin: auto;
+    height:60vh;
+    border:5px double orange;
+    font-size: 20px;
+    padding:50px;
+    overflow-y:auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.message{
+background-color: orange;
+max-width: 200px;
+padding:18px;
+margin: 5px;
+border: 3px solid black;
+color:rgb(43, 13, 13);
+border-radius: 4px;
+}
+
+.left{
+float: left;
+clear: both;
+}
+.right{
+float: right;
+clear:both;
+}
+#send-container{
+text-align: center;
+max-width: 955px;
+display:block;
+margin: auto;
+margin-top: 18px;
+}
+#messagesent{
+    width:90%;
+    height: 35px;
+    border:5px double orange;
+    border-radius: 5px;
+}
+#btn{
+    size:100%;
+color :red;
+cursor: pointer;
+border:5px double orange;
+height:50px;   
+border-radius: 5px;
+}
+.newjoin{
+clear:both;
+text-align: center;
+color:white;
+background-color: green;
+}
